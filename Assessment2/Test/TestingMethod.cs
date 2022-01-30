@@ -28,7 +28,7 @@ namespace Assessment2.Test
             Thread.Sleep(6000);
             driver.Close();
         }
-        /*
+ 
         [TestMethod]
         public void LaunchLoginT1()
         {
@@ -39,10 +39,9 @@ namespace Assessment2.Test
             AmazonLogin l1 = new AmazonLogin(driver);
             l1.LoginPage();
             l1.EnterUserDetailsT1();
-            l1.EnterPasswordT1();
+            l1.EnterPassword();
             Thread.Sleep(6000);
             driver.Close();
         }
-        */
     }
 }
